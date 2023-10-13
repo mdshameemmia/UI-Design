@@ -1,0 +1,154 @@
+navbar{
+    background-color: white;
+}
+
+body{
+    background-color: #EDEDED;
+}
+
+.category-btn {
+    background-image: linear-gradient(to right,#EE6F73,#5A5CEE);
+    padding: 8px 15px;
+    border: none ;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.btn-blue{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 0  5px 5px 0;
+}
+
+.btn-heart{
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-heart:hover{
+    border:2px solid rgb(224, 152, 164);
+}
+
+.user-btn{
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#e0bebf,#c9cadb);
+    padding: 5px 20px;
+    color: black;
+}
+
+#category .card {
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#category .card img {
+    height: 160px;
+    width: 120px;
+}
+
+#category .card:hover {
+    border:2px solid rgb(224, 152, 164);
+} 
+
+#laptop .card{
+    border-radius: 10px;
+    margin:10px;
+}
+#laptop .card:hover{
+    box-shadow: 1px 1px 2px 2px #c9c8c8;
+}
+#laptop_carousel .card{
+    border-radius: 10px;
+    margin:10px;
+}
+#laptop_carousel .card:hover{
+    box-shadow: 1px 1px 2px 2px #c9c8c8;
+}
+
+.top-sale{
+    background-color: red;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    padding: 5px 10px;
+}
+.popular{
+    background-color: #E19654;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    padding: 5px 10px;
+}
+
+.btn-load{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+.btn-load:hover {
+    border: 2px solid orange;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  
+  font-size: 20px;
+  border-radius: 100%;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border:1px solid blue;
+  padding: 10px;
+  z-index: 99;
+
+}
+
+.carousel-control-next-icon{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qkpUhJx0ez1Eqrb34XedFkWn6s0FVxcqSTLOl53sIfsl0Q1WVHqKpIHeYPFs5QPGkVg&usqp=CAU');
+    padding: 10px !important;
+    box-shadow: 1px 1px 1px 1px #8182df;
+    z-index: 99;
+}
+
+.carousel-control-prev-icon{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/basic-ui-elementsblue-1/389467/35-512.png');
+    padding: 10px !important;
+    box-shadow: 1px 1px 1px 1px #8182df;
+    z-index: 99;
+
+}
+
+#footer{
+    background-image: linear-gradient(to right, #E8CEED,#F0E4F2);
+    /* height: 400px; */
+   
+}
+
+#footer h4{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+#footer .paragraph p{
+    color: black;
+    font-size: 17px;
+}
+
+hr{
+    color: black;
+    height: 5px;
+}
